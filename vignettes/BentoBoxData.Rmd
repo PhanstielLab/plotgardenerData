@@ -1,0 +1,74 @@
+---
+title: "BentoBoxData"
+author: "Nicole Kramer"
+output: rmarkdown::html_vignette
+vignette: >
+    %\VignetteIndexEntry{Introduction to BentoBox}
+    %\VignetteEngine{knitr::rmarkdown}
+    %\VignetteEncoding{UTF-8
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Sample experimental data
+
+This package provides subsets of publicly available Hi-C, ChIP-seq, 
+DNA looping, GWAS, and COVID-19 datasets. The genomic datasets are all
+in reference to the `hg19` genome build. These datasets are included in
+the `data` directory and can be loaded with the `data()` call:
+
+```{r}
+library(BentoBoxData)
+data("IMR90_HiC_10kb")
+```
+
+The full versions of these datasets can be found at the citations provided
+in each data documentation file (e.g. `?bb_imrHicData`).
+
+The `BentoBox` vignettes detail how to visualize these datasets.
+
+# Sample raw files
+
+Small, example `.bigwig` and `.hic` files are included in the `inst/extdata` 
+directory to demonstrate the functionality of the `BentoBox` functions
+`bb_readBigwig` and `bb_readHic`:
+
+```{r}
+bwFile <- system.file("extdata/test.bw", package = "BentoBoxData")
+hicFile <- system.file("extdata/test_chr22.hic", package = "BentoBoxData")
+```
+
+# CytoBand datasets
+
+Giemsa stain band information was compiled from the UCSC Genome Browser for the 
+following genome assemblies:
+* `dm6`
+* `danRer10`
+* `hg18`
+* `hg19`
+* `hg38`
+* `mm9`
+* `mm10`
+* `rn5`
+* `rn6`
+
+Please refer to the USCS Genome Browser database for more information on these
+data: 
+
+> Navarro Gonzalez J, Zweig AS, Speir ML, Schmelter D, Rosenbloom KR, Raney BJ,
+> Powell CC, Nassar LR, Maulding ND, Lee CM, Lee BT, Hinrichs AS, Fyfe AC, 
+> Fernandes JD, Diekhans M, Clawson H, Casper J, Benet-Pagès A, Barber GP, 
+> Haussler D, Kuhn RM, Haeussler M, Kent WJ. The UCSC Genome Browser database:
+> 2021 update. Nucleic Acids Res. 2021 Jan 8;49(D1):D1046-D1057. 
+> doi: 10.1093/nar/gkaa1070. PMID: 33221922; PMCID: PMC7779060.
+
+These data are used in the `BentoBox` `bb_plotIdeogram` function and can be 
+loaded with `data()`.
+
+# Session info
+
+```{r}
+sessionInfo()
+```
