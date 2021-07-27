@@ -1,6 +1,6 @@
 Package: BentoBoxData
 Title: Datasets and test data files for the BentoBox package
-Version: 0.99.3
+Version: 0.99.4
 Authors@R: 
     person(given = "Nicole",
            family = "Kramer",
