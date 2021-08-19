@@ -3,7 +3,7 @@
 \docType{data}
 \name{COVID_USA_cases}
 \alias{COVID_USA_cases}
-\title{BentoBox example map data for COVID-19 cases in the United States}
+\title{plotgardener example map data for COVID-19 cases in the United States}
 \format{
 a dataframe with 7 columns
 \describe{

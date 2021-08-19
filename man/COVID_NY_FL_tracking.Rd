@@ -3,7 +3,7 @@
 \docType{data}
 \name{COVID_NY_FL_tracking}
 \alias{COVID_NY_FL_tracking}
-\title{BentoBox example data for tracked COVID-19 cases in New York and Florida}
+\title{plotgardener example data for tracked COVID-19 cases in New York and Florida}
 \format{
 a dataframe with 3 columns
 \describe{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{GM12878_HiC_10kb}
 \alias{GM12878_HiC_10kb}
-\title{BentoBox example GM12878 Hi-C data at 10 Kb resolution}
+\title{plotgardener example GM12878 Hi-C data at 10 Kb resolution}
 \format{
 a 3-column data frame in sparse upper triangular format.
 }

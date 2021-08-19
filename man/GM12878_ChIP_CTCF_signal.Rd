@@ -3,7 +3,7 @@
 \docType{data}
 \name{GM12878_ChIP_CTCF_signal}
 \alias{GM12878_ChIP_CTCF_signal}
-\title{BentoBox example GM12878 CTCF ChIP signal data}
+\title{plotgardener example GM12878 CTCF ChIP signal data}
 \format{
 a dataframe in BED format with a "score" column
 \describe{

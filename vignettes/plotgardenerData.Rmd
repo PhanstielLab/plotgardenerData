@@ -1,9 +1,9 @@
 ---
-title: "BentoBoxData"
+title: "plotgardenerData"
 author: "Nicole Kramer"
 output: rmarkdown::html_vignette
 vignette: >
-    %\VignetteIndexEntry{Introduction to BentoBox}
+    %\VignetteIndexEntry{plotgardenerData}
     %\VignetteEngine{knitr::rmarkdown}
     %\VignetteEncoding{UTF-8
 ---
@@ -20,24 +20,24 @@ in reference to the `hg19` genome build. These datasets are included in
 the `data` directory and can be loaded with the `data()` call:
 
 ```{r}
-library(BentoBoxData)
+library(plotgardenerData)
 data("IMR90_HiC_10kb")
 ```
 
 The full versions of these datasets can be found at the citations provided
 in each data documentation file (e.g. `?IMR90_HiC_10kb`).
 
-The `BentoBox` vignettes detail how to visualize these datasets.
+The `plotgardener` vignettes detail how to visualize these datasets.
 
 # Sample raw files
 
 Small, example `.bigwig` and `.hic` files are included in the `inst/extdata` 
-directory to demonstrate the functionality of the `BentoBox` functions
-`bbReadBigwig` and `bbReadHic`:
+directory to demonstrate the functionality of the `plotgardener` functions
+`readBigwig` and `readHic`:
 
 ```{r}
-bwFile <- system.file("extdata/test.bw", package = "BentoBoxData")
-hicFile <- system.file("extdata/test_chr22.hic", package = "BentoBoxData")
+bwFile <- system.file("extdata/test.bw", package = "plotgardenerData")
+hicFile <- system.file("extdata/test_chr22.hic", package = "plotgardenerData")
 ```
 
 # Session info

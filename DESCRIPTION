@@ -1,15 +1,15 @@
-Package: BentoBoxData
-Title: Datasets and test data files for the BentoBox package
-Version: 0.99.6
+Package: plotgardenerData
+Title: Datasets and test data files for the plotgardener package
+Version: 0.99.7
 Authors@R: 
     person(given = "Nicole",
            family = "Kramer",
            role = c("aut", "cre"),
            email = "nekramer@live.unc.edu",
            comment = c(ORCID = "0000-0001-9617-9671"))
-Description: This is a supplemental data package for the BentoBox package. Includes 
-    example datasets used in BentoBox vignettes and example raw data files. For 
-    details on how to use these datasets, see the BentoBox package vignettes.
+Description: This is a supplemental data package for the plotgardener package. Includes 
+    example datasets used in plotgardener vignettes and example raw data files. For 
+    details on how to use these datasets, see the plotgardener package vignettes.
 Depends: R (>= 4.1.0)
 Suggests: rmarkdown, knitr
 biocViews: ExperimentData, Homo_sapiens_Data, ExpressionData, Genome, ChIPSeqData, ENCODE
@@ -18,5 +18,5 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
-URL: https://github.com/PhanstielLab/BentoBoxData, https://phanstiellab.github.io/BentoBox
-BugReports: https://github.com/PhanstielLab/BentoBoxData/issues
+URL: https://github.com/PhanstielLab/plotgardenerData, https://phanstiellab.github.io/plotgardener
+BugReports: https://github.com/PhanstielLab/plotgardenerData/issues

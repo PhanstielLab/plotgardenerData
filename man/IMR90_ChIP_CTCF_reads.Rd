@@ -3,7 +3,7 @@
 \docType{data}
 \name{IMR90_ChIP_CTCF_reads}
 \alias{IMR90_ChIP_CTCF_reads}
-\title{BentoBox example CTCF read data}
+\title{plotgardener example CTCF read data}
 \format{
 a dataframe in BED (ranges) format
 \describe{

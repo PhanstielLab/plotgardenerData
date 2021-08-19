@@ -1,6 +1,6 @@
-# BentoBoxData
+# plotgardenerData
 
 This package provides supplemental datasets and files for use with 
-[BentoBox](https://github.com/PhanstielLab/BentoBoxData). For more
+[plotgardener](https://github.com/PhanstielLab/plotgardener). For more
 information on how to use these data, please refer to the 
-`BentoBox` vignette.
+`plotgardener` vignette.

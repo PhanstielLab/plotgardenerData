@@ -3,7 +3,7 @@
 \docType{data}
 \name{hg19_insulin_GWAS}
 \alias{hg19_insulin_GWAS}
-\title{BentoBox example insulin GWAS data}
+\title{plotgardener example insulin GWAS data}
 \format{
 a dataframe with the following columns:
 \describe{

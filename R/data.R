@@ -1,4 +1,4 @@
-#' BentoBox example CTCF read data
+#' plotgardener example CTCF read data
 #'
 #' A dataset listing aligned sequencing reads for CTCF in the IMR90 cell
 #' line as determined by ChIP-seq. Genomic coordinates
@@ -35,7 +35,7 @@
 #' ENCODE portal \url{https://www.encodeproject.org/}.
 "IMR90_ChIP_CTCF_reads"
 
-#' BentoBox example DNA loop pair data
+#' plotgardener example DNA loop pair data
 #'
 #' A dataset listing interaction data along genomic coordinates
 #' in the region chr21:28000000-30300000 according to the hg19 genome build.
@@ -72,7 +72,7 @@
 #'
 "IMR90_DNAloops_pairs"
 
-#' BentoBox example data for tracked COVID-19 cases in New York and Florida
+#' plotgardener example data for tracked COVID-19 cases in New York and Florida
 #'
 #' A timeline dataset tracking positive COVID-19 cases in
 #' New York and Florida from 2020-01-29 to 2021-03-07.
@@ -93,7 +93,7 @@
 #' \url{https://covidtracking.com/}.
 "COVID_NY_FL_tracking"
 
-#' BentoBox example map data for COVID-19 cases in the United States
+#' plotgardener example map data for COVID-19 cases in the United States
 #'
 #' A data frame of United States map data and COVID-19 cases as of 2021-03-07.
 #'
@@ -118,7 +118,7 @@
 #' \link[ggplot2]{map_data}.
 "COVID_USA_cases"
 
-#' BentoBox example GM12878 CTCF ChIP signal data
+#' plotgardener example GM12878 CTCF ChIP signal data
 #'
 #' A dataset listing read depths across the genome resulting from CTCF
 #' ChIP-seq in the GM12878 cell line. Genomic coordinates
@@ -159,7 +159,7 @@
 #'
 "GM12878_ChIP_CTCF_signal"
 
-#' BentoBox example GM12878 H3K27ac ChIP signal data
+#' plotgardener example GM12878 H3K27ac ChIP signal data
 #'
 #' A dataset listing read depths across the genome resulting from
 #' H3K27ac ChIP-seq in the GM12878 cell line. Genomic coordinates
@@ -189,7 +189,7 @@
 #'
 "GM12878_ChIP_H3K27ac_signal"
 
-#' BentoBox example GM12878 Hi-C data at 10 Kb resolution
+#' plotgardener example GM12878 Hi-C data at 10 Kb resolution
 #'
 #' A dataset containing interaction frequency matrix
 #' counts along genomic coordinates in the
@@ -213,7 +213,7 @@
 #' (\href{https://pubmed.ncbi.nlm.nih.gov/25497547/}{PubMed})
 "GM12878_HiC_10kb"
 
-#' BentoBox example insulin GWAS data
+#' plotgardener example insulin GWAS data
 #'
 #' A dataset representing GWAS data from a GWAS study of insulin
 #' response with coordinates based on the hg19 genome build.
@@ -249,7 +249,7 @@
 #'
 "hg19_insulin_GWAS"
 
-#' BentoBox example IMR90 CTCF ChIP signal data
+#' plotgardener example IMR90 CTCF ChIP signal data
 #'
 #' A dataset listing read depths across the genome resulting
 #' from CTCF ChIP-seq in the IMR90 cell line. Genomic coordinates
@@ -286,7 +286,7 @@
 #'
 "IMR90_ChIP_CTCF_signal"
 
-#' BentoBox example IMR90 H3K27ac ChIP signal data
+#' plotgardener example IMR90 H3K27ac ChIP signal data
 #'
 #' A dataset listing read depths across the genome resulting
 #' from H3K27ac ChIP-seq in the IMR90 cell line. Genomic coordinates
@@ -315,7 +315,7 @@
 #'
 "IMR90_ChIP_H3K27ac_signal"
 
-#' BentoBox example IMR90 Hi-C data at 10 Kb resolution
+#' plotgardener example IMR90 Hi-C data at 10 Kb resolution
 #'
 #' A dataset containing interaction frequency matrix
 #' counts along genomic coordinates in the
@@ -339,7 +339,7 @@
 #' (\href{https://pubmed.ncbi.nlm.nih.gov/25497547/}{PubMed})
 "IMR90_HiC_10kb"
 
-#' BentoBox example data for COVID-19 vaccinations in New York and Florida
+#' plotgardener example data for COVID-19 vaccinations in New York and Florida
 #'
 #' A dataset describing groups of COVID-19 vaccinations in New York and Florida.
 #'

@@ -3,7 +3,7 @@
 \docType{data}
 \name{IMR90_DNAloops_pairs}
 \alias{IMR90_DNAloops_pairs}
-\title{BentoBox example DNA loop pair data}
+\title{plotgardener example DNA loop pair data}
 \format{
 a dataframe in BEDPE (paired ranges) format
 \describe{

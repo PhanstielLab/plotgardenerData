@@ -3,7 +3,7 @@
 \docType{data}
 \name{IMR90_HiC_10kb}
 \alias{IMR90_HiC_10kb}
-\title{BentoBox example IMR90 Hi-C data at 10 Kb resolution}
+\title{plotgardener example IMR90 Hi-C data at 10 Kb resolution}
 \format{
 a 3-column data frame in sparse upper triangular format.
 }

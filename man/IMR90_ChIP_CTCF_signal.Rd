@@ -3,7 +3,7 @@
 \docType{data}
 \name{IMR90_ChIP_CTCF_signal}
 \alias{IMR90_ChIP_CTCF_signal}
-\title{BentoBox example IMR90 CTCF ChIP signal data}
+\title{plotgardener example IMR90 CTCF ChIP signal data}
 \format{
 a dataframe in BED format with a "score" column
 \describe{
